@@ -1,0 +1,26 @@
+---
+title: "Attempt to use tigris to get tract"
+output:
+  html_document:
+    df_print: paged
+knit: (function(inputFile, encoding) { rmarkdown::render(inputFile, encoding = encoding, output_dir = "docs") })
+---
+
+@abtran says: 
+
+```
+try the `call_geolocator()` function from the `tigris` package (edited) 
+https://www.rdocumentation.org/packages/tigris/versions/0.7/topics/call_geolocator
+you don't even need an api key
+if you have lat and lon, use `call_geolocator_latlon()`
+```
+
+```{r setup, echo=T, results='hide', message=F, warning=F}
+library(tidyverse)
+library(tidycensus)
+library(censusr)
+```
+
+```{r import}
+tx <- read_rds("data-out/01_tx.rds")
+```

@@ -1,0 +1,134 @@
+---
+title: "A look at geocodio"
+output:
+  html_document:
+    df_print: paged
+knit: (function(inputFile, encoding) { rmarkdown::render(inputFile, encoding = encoding, output_dir = "docs") })
+---
+
+There is a file `data-raw/01_tx_gun_accidents_geocodio.csv` that is the result of sending `data-out/01-tx.csv` through [geocodio](https://www.geocod.io/). I added the census tract, demographics and economic columns. It brought back a ton of info ... more than necessary. Will try to cut that down here.
+
+They also have an R package [rgeocodio](https://github.com/hrbrmstr/rgeocodio) that is worth exploring. Might be able to specify just the columns needed.
+
+
+```{r setup, echo=T, results='hide', message=F, warning=F}
+library(tidyverse)
+library(janitor)
+```
+
+## Import the geocodio-returned data
+
+```{r}
+tx_geocodio <- read_csv("data-raw/01_tx_gun_accidents_geocodio.csv") %>% clean_names()
+```
+
+It looks like this failed to parse 4 row: 14, 124, 139, 175. They were short columns?
+
+## Peek at data
+
+Man, there are a lot of columns
+
+```{r}
+tx_geocodio %>% head()
+```
+
+
+## Select the columns we need
+
+I'm going to print the names out to csv to take a closer look at them.
+
+```{r}
+tx_geocodio %>% names() %>% as_tibble() %>% write_csv("data-out/02_tx_geocodio_names.csv")
+```
+
+```{r}
+tx_geocodio_select <- tx_geocodio %>% 
+  select(
+    id,
+    incident_date,
+    address,
+    city,
+    county,
+    state,
+    number_killed,
+    number_injured,
+    operations,
+    city_or_county,
+    number,
+    street,
+    city_2,
+    zip,
+    county_2,
+    acs_economics_number_of_households_total_value,
+    acs_economics_number_of_households_total_margin_of_error,
+    acs_economics_median_household_income_total_value,
+    acs_economics_median_household_income_total_margin_of_error,
+    accuracy_score,
+    accuracy_type,
+    state_2,
+    latitude,
+    longitude,
+    state_fips,
+    county_fips,
+    place_fips,
+    census_tract_code,
+    census_block_code,
+    census_block_group,
+    full_fips
+  ) %>% 
+  rename(
+    households_total = acs_economics_number_of_households_total_value,
+    households_moe = acs_economics_number_of_households_total_margin_of_error,
+    median_income_total = acs_economics_median_household_income_total_value,
+    median_income_moe = acs_economics_median_household_income_total_margin_of_error
+  )
+```
+
+
+## Export the geocoded file
+
+```{r}
+tx_geocodio_select %>% 
+  write_csv("data-out/02_tx_geocodio_select.csv")
+
+tx_geocodio_select %>% 
+  write_rds("data-out/02_tx_geocodio_select.rds")
+```
+
+
+## Understanding the accuracy of geocoding results
+
+Cribbed from [geocodio docs](https://www.geocod.io/docs/#accuracy-score).
+
+Consider `accuracy_type` first as it has a heirarchy, with the best being rooftop and worst being state. 
+
+
+| Value                 | Description                                                                                         |
+|-----------------------|-----------------------------------------------------------------------------------------------------|
+| rooftop               | The exact point was found with rooftop level accuracy                                               |
+| point                 | The exact point was found from address range interpolation where the range contained a single point |
+| range_interpolation   | The point was found by performing address range interpolation                                       |
+| nearest_rooftop_match | The exact house number was not found, so a close, neighboring house number was used instead         |
+| street_center         | The result is a geocoded street centroid                                                            |
+| place                 | The point is a city/town/place                                                                      |
+| state                 | The point is a state                                                                                |
+
+Each geocoded result is returned with an accuracy score, which is a decimal number ranging from 0.00 to 1.00. The higher the score, the better the result.
+
+Generally, accuracy scores that are larger than or equal to 0.8 are the most accurate, whereas results with lower accuracy scores might be very rough matches.
+
+That said, a 1.0 perfect match for the "state" type is not a good result, because that is just the center of the state.
+
+If you want to consider which of the results have accurate data to the zip code level, I would exclude some records in a couple of ways:
+
+- Exclude all that have `accuracy_type` of "place" or "state". That leaves 137 results.
+- Then consider the `accuracy_score`. 0.5 or greater gives you 133 records. Go to 0.8 and it drops to 96. Could always hand-check those lower-rated results to see if they past muster.
+
+```{r}
+'%ni%' <- Negate('%in%')
+tx_geocodio_select %>% 
+  filter(accuracy_type  %ni% c("place", "state"),
+         accuracy_score >= .8)
+```
+
+So, in the end the geogoding results are not any better than with MapChi ... 

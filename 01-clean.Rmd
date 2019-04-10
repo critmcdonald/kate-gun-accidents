@@ -98,5 +98,6 @@ tx <- tx %>%
 
 ```{r}
 tx %>% write_rds("data-out/01_tx.rds")
+tx %>% write_csv("data-out/01_tx.csv")
 ```
 

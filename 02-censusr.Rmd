@@ -1,0 +1,59 @@
+---
+title: "Attempt to use censusr to get tract"
+output:
+  html_document:
+    df_print: paged
+knit: (function(inputFile, encoding) { rmarkdown::render(inputFile, encoding = encoding, output_dir = "docs") })
+---
+
+```{r setup, echo=T, results='hide', message=F, warning=F}
+library(tidyverse)
+library(tidycensus)
+library(censusr)
+```
+
+```{r import}
+tx <- read_rds("data-out/01_tx.rds")
+```
+
+## Prepare data frame
+
+The `append_geoid()` request wants only certain things named certain ways.
+
+```{r}
+tx_addr <- tx %>% 
+  mutate(state = "TX") %>% 
+  rename(
+    street = address
+  ) %>% 
+  select(street, city, state)
+```
+
+Removing blank cities in case that is a thing
+
+```{r}
+tx_addr <- tx_addr %>% 
+  filter(!is.na(city))
+```
+
+## Try append_geo
+
+```{r}
+api_key = Sys.getenv("CENSUS_API_KEY")
+# tx_geo <- append_geoid(tx_addr, 'tr')
+```
+
+The `append_geoid()` request above gives the following traceback error:
+
+```
+Error in call_geolocator(as.character(address$street[i]), as.character(address$city[i]), : Bad Request (HTTP 400).
+
+4. stop(http_condition(x, "error", task = task, call = call))
+3. httr::stop_for_status(r)
+2. call_geolocator(as.character(address$street[i]), as.character(address$city[i]), as.character(address$state[i]))
+1. append_geoid(tx_addr, "tr")
+```
+
+
+
+Wondering if the api_key is the problem. Not sure.
