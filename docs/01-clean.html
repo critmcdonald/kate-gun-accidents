@@ -148,11 +148,9 @@ library(lubridate)</code></pre>
 <h2>Cleaning</h2>
 <div id="columns-additions" class="section level3">
 <h3>Columns additions</h3>
-<p>Adding blank columns for tx, zip and county. Sets city as value of city_or_county, which is cleaned in the next step. We add an id so we can export parts and merge the back to the correct records.</p>
+<p>Adds an id so we can export parts and merge the back to the correct records. Sets city as value of city_or_county, which is cleaned in the next step. Adds county which is filled later.</p>
 <pre class="r"><code>tx &lt;- tx %&gt;% 
   mutate(id = row_number(),
-         tx = &quot;TX&quot;,
-         zip = &quot;&quot;,
          county = &quot;&quot;,
          city = city_or_county
          )</code></pre>
@@ -190,7 +188,7 @@ library(lubridate)</code></pre>
 <pre class="r"><code>tx %&gt;% names()</code></pre>
 <pre><code>##  [1] &quot;incident_date&quot;  &quot;state&quot;          &quot;city_or_county&quot; &quot;address&quot;       
 ##  [5] &quot;number_killed&quot;  &quot;number_injured&quot; &quot;operations&quot;     &quot;id&quot;            
-##  [9] &quot;tx&quot;             &quot;zip&quot;            &quot;county&quot;         &quot;city&quot;</code></pre>
+##  [9] &quot;county&quot;         &quot;city&quot;</code></pre>
 <p>Reselect to change the order</p>
 <pre class="r"><code>tx &lt;- tx %&gt;% 
   select(
@@ -198,14 +196,12 @@ library(lubridate)</code></pre>
     incident_date,
     address,
     city,
-    zip,
     county,
-    tx,
+    state,
     number_killed,
     number_injured,
     operations,
-    city_or_county,
-    state
+    city_or_county
   )</code></pre>
 </div>
 </div>

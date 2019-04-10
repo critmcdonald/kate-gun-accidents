@@ -23,13 +23,11 @@ tx <- read_csv("data-raw/gun_accidents_tx.csv") %>% clean_names()
 
 ### Columns additions
 
-Adding blank columns for tx, zip and county. Sets city as value of city_or_county, which is cleaned in the next step. We add an id so we can export parts and merge the back to the correct records.
+Adds an id so we can export parts and merge the back to the correct records. Sets city as value of city_or_county, which is cleaned in the next step. Adds county which is filled later.
 
 ```{r}
 tx <- tx %>% 
   mutate(id = row_number(),
-         tx = "TX",
-         zip = "",
          county = "",
          city = city_or_county
          )
@@ -87,14 +85,12 @@ tx <- tx %>%
     incident_date,
     address,
     city,
-    zip,
     county,
-    tx,
+    state,
     number_killed,
     number_injured,
     operations,
-    city_or_county,
-    state
+    city_or_county
   )
 ```
 

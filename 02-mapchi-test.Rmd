@@ -61,12 +61,16 @@ Imports the cleaned data.
 tx <- read_rds("data-out/01_tx.rds")
 ```
 
-## Select and write addresses to file
+## Set up columns and export to csv
 
 The `census_geo()` function expects a csv file with spedific columns, so we create that here and write it out.
 
 ```{r}
 tx %>% 
+  mutate(
+    zip = "",
+    tx = "TX"
+  ) %>% 
   select(
     id,
     address,
@@ -116,9 +120,20 @@ tx_geo %>%
   count(m_zip)
 ```
 
+## Compare matched addresses
+
+Allows us to look at the address in the data vs the address used for the geocoding.
+
+```{r}
+tx_geo %>%
+  filter(!is.na(quality)) %>% 
+  arrange(quality %>% desc()) %>% 
+  select(quality, o_address, m_address)
+```
+
 ## Join and export
 
-We have to join our geocoded fields back to the original data in case we want to use it later.
+We join our geocoded fields back to the original data in case we want to use it later.
 
 Prepare the geocoded data frame to just have the cols we need joined.
 
@@ -126,7 +141,7 @@ Prepare the geocoded data frame to just have the cols we need joined.
 tx_geo_2join <- tx_geo %>% 
   arrange(id) %>% 
   select(
-    id, m_zip, lat, long
+    id, m_address, m_city, m_zip, lat, long
   ) %>% 
   mutate(m_zip = m_zip %>% as.character())
 ```
