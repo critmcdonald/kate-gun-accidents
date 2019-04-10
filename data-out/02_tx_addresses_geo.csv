@@ -1,0 +1,271 @@
+id,o_address,o_city,o_state,o_zip,status,quality,m_address,m_city,m_state,m_zip,long,lat,not_sure,L_R
+230,3800 block of Reynosa Street,Corpus Christi,TX,,Match,Exact,3800 Reynosa St,CORPUS CHRISTI,TX,78416,-97.424484,27.760765,178515806,L
+110,400 Block of Hardy Circle,El Paso,TX,,Match,Exact,400 Hardy Cir,EL PASO,TX,79905,-106.41049,31.771141,189345457,R
+231,Force and Crown,Houston,TX,,Match,Non_Exact,Force St & Crown St,HOUSTON,TX,77020,-95.29335,29.786324,,
+111,4860 SW Loop 820,Fort Worth,TX,,Match,Exact,4860 SW Loop 820,FT WORTH,TX,76109,-97.3967,32.682907,102132632,R
+232,325 Pruitt Ave.,San Antonio,TX,,Match,Exact,325 Pruitt Ave,SAN ANTONIO,TX,78204,-98.506676,29.398796,101526914,R
+112,N/A,Fort Worth,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+233,200 block of Moonshine Hill,Humble,TX,,Tie,NA,NA,NA,NA,NA,NA,NA,NA,NA
+113,700 block of Hatton Hill Lane,Austin,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+234,4200 block of Southwest Loop 410,San Antonio,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+114,21300 block of Greenham Dr.,Spring,TX,,Match,Exact,21300 Greenham Dr,SPRING,TX,77388,-95.46602,30.073519,96008238,R
+235,Mountain View Lane,Pipe Creek,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+115,1600 Block of North 8th Street,Lamesa,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+236,4600 East Houston St.,San Antonio,TX,,Match,Exact,4600 E Houston St,SAN ANTONIO,TX,78220,-98.40313,29.424013,634272417,R
+116,4235 Oak Shadows,Houston,TX,,Match,Non_Exact,4235 Oak Shadows Dr,HOUSTON,TX,77091,-95.45008,29.843706,96028607,L
+237,400 block of S. Pine St.,San Antonio,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+117,500 block of FM 843,Lufkin,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+238,1100 S Seventh,Conroe,TX,,Match,Non_Exact,1100 S 7th St,CONROE,TX,77301,-95.442406,30.302744,79336668,R
+118,9th Street and Colcord Avenue,Waco,TX,,Match,Non_Exact,N 9th St & Colcord Ave,WACO,TX,76707,-97.145386,31.56194,,
+239,N/A,Texas City,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+119,700 Dominik Drive,College Station,TX,,Match,Exact,700 Dominik Dr,COLLEGE STA,TX,77840,-96.317245,30.622826,21816776,R
+10,2107 Lyndon Creek Ln,Houston,TX,,Match,Non_Exact,2107 Linden Creek Ln,HOUSTON,TX,77017,-95.23414,29.6791,96093712,L
+11,11600 block of Vinedale Dr,Houston,TX,,Match,Exact,11600 Vinedale Dr,HOUSTON,TX,77099,-95.58298,29.661154,96036159,R
+12,4000 W 34th St,Houston,TX,,Match,Exact,4000 W 34th St,HOUSTON,TX,77092,-95.4494,29.817223,96639629,R
+13,1400 block of East Power Ave,Victoria,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+14,N/A,,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+15,13000 block of Duncum St,Houston,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+16,4000 block of Wintergreen Dr,Humble,TX,,Match,Exact,4000 Wintergreen Dr,HUMBLE,TX,77396,-95.213486,29.976269,96049959,R
+17,1800 block of Bickers St,Dallas,TX,,Match,Exact,1800 Bickers St,DALLAS,TX,75212,-96.84802,32.78704,102904555,L
+18,9600 block of Beckleycrest Ave,Dallas,TX,,Match,Exact,9600 Beckleycrest Ave,DALLAS,TX,75232,-96.83374,32.631554,103188428,L
+19,1400 block of Tumbleweed Tr,Roanoke (Northlake),TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+240,N/A,Texas City,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+120,406 W Martinez St,Del Rio,TX,,Match,Exact,406 W Martinez St,DEL RIO,TX,78840,-100.87978,29.353983,173575986,L
+241,10100 Beechnut St,Houston,TX,,Match,Exact,10100 Beechnut St,HOUSTON,TX,77072,-95.55757,29.689459,96159703,R
+121,Central Park Lane,College Station,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+242,600 block of Destin Dr,Fort Worth,TX,,Match,Exact,600 Destin Dr,FT WORTH,TX,76131,-97.370834,32.908077,619871185,R
+1,Cliff Creek Crossing Dr,Dallas,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+122,1416 Meadowlane Terrace,Fort Worth,TX,,Match,Non_Exact,1416 Meadow Lane Ter,FT WORTH,TX,76112,-97.20361,32.75877,101900323,R
+243,N/A,Ector County,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,2800 Katy Hockley Cut Off Rd,Katy,TX,,Match,Exact,2800 Katy Hockley Cut Off Rd,KATY,TX,77493,-95.80905,29.813593,96638453,R
+123,3712 North Elm Street,Fort Worth,TX,,Match,Exact,3712 N Elm St,FT WORTH,TX,76106,-97.343765,32.810688,101856196,R
+244,1600 block of Saunders,Bryan,TX,,Match,Non_Exact,1600 Saunders St,BRYAN,TX,77803,-96.3869,30.680037,21812066,R
+3,25000 block of Elmley Place,Spring,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+124,N/A,,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+245,N/A,Bryan,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4,12929 Northwest Fwy,Houston,TX,,Match,Exact,12929 Northwest Fwy,HOUSTON,TX,77040,-95.496284,29.84331,96643315,L
+125,1200 block of Susan Avenue,Fort Worth,TX,,Match,Non_Exact,1200 Susan Ln,FT WORTH,TX,76120,-97.16231,32.76274,101904458,R
+246,N/A,Belton,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+5,1314 Clinton Ave,Fort Worth,TX,,Match,Exact,1314 Clinton Ave,FT WORTH,TX,76164,-97.34781,32.775352,102139304,R
+126,704 West Sul Ross Ave,Alpine,TX,,Match,Exact,704 W Sul Ross Ave,ALPINE,TX,79830,-103.66812,30.357546,183977175,R
+247,Pine and E. Crockett St.,San Antonio,TX,,Match,Non_Exact,N Pine St & E Crockett St,SAN ANTONIO,TX,78202,-98.47025,29.42376,,
+6,Apple Valley Dr,San Antonio,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+127,200 Bowser Cir,Terrell,TX,,Match,Exact,200 Bowser Cir,TERRELL,TX,75160,-96.28488,32.736126,123747152,L
+248,100 Debby Ln,Mineola,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7,Kimberly Glen Ln and Postwood Glen Ln,Spring,TX,,Match,Exact,Kimberly Glen Ln & Postwood Glen Ln,SPRING,TX,77373,-95.34982,30.048597,,
+128,200 block of Los Ranchitos,San Benito,TX,,Match,Non_Exact,200 Los Ranchitos Rd,SAN BENITO,TX,78586,-97.638756,26.033361,90038970,R
+249,FM 1375 E,New Waverly,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+8,16900 block of Jenikay Ln,Houston,TX,,Match,Exact,16900 Jenikay Ln,HOUSTON,TX,77084,-95.65816,29.844536,96015888,L
+129,500 block of Doherty Street,San Benito,TX,,Match,Exact,500 Doherty St,SAN BENITO,TX,78586,-97.635704,26.141857,89959068,R
+9,4700 block of Midway Dr,Temple,TX,,Match,Exact,4700 Midway Dr,TEMPLE,TX,76502,-97.405334,31.077719,146146811,R
+20,1000 block of County Rd 678,Brazoria,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+21,200 block of Roberts St,San Antonio,TX,,Match,Exact,200 Roberts St,SAN ANTONIO,TX,78207,-98.527885,29.440376,101514185,L
+22,4849 Haverwood Ln,Dallas,TX,,Match,Exact,4849 Haverwood Ln,DALLAS,TX,75287,-96.823685,33.00723,123483509,L
+23,Southminster Dr and Ashcroft Dr,Houston,TX,,Match,Exact,Southminster Dr & Ashcroft Dr,HOUSTON,TX,77035,-95.49228,29.63918,,
+24,Southminster Dr,Houston,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+25,5100 block of Mountain Springs Tr,Fort Worth,TX,,Match,Exact,5100 Mountain Spring Trl,FT WORTH,TX,76123,-97.4024,32.63876,102190136,R
+26,6700 block of Atasca Dr,Humble (Atascocita),TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+27,FM 1209,Rusk,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+28,Schroeder Ave,San Angelo,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+29,US-90 and TX-326,Nome,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+250,11400 block of Panay,Houston,TX,,Match,Non_Exact,11400 Panay Dr,HOUSTON,TX,77048,-95.347466,29.63618,96090522,R
+130,300 block of Breckenridge Street,Texarkana,TX,,Match,Exact,300 Breckenridge St,TEXARKANA,TX,75501,-94.08706,33.43952,57668023,R
+251,N/A,Dallas,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+131,300 block of De Haven St,Houston,TX,,Match,Non_Exact,300 Delaware St,HOUSTON,TX,77029,-95.25661,29.738173,96427504,R
+252,Co Rd 4764,Briar,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+132,4000 block of East Texas 6,Alvin,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+253,6301 Ranchester,Houston,TX,,Match,Non_Exact,6301 Ranchester Dr,HOUSTON,TX,77036,-95.54548,29.709867,96608830,L
+133,3600 block of Hulen Park Circle,Fort Worth,TX,,Match,Exact,3600 Hulen Park Cir,FT WORTH,TX,76123,-97.37087,32.625923,101942563,R
+254,14678 FM 59,Athens,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+134,9700 block of Shady Tree Ln,Houston,TX,,Match,Exact,9700 Shady Tree Ln,HOUSTON,TX,77086,-95.50363,29.921629,96010764,R
+255,739 West William Cannon Dr,Austin,TX,,Match,Exact,739 W William Cannon Dr,AUSTIN,TX,78745,-97.78859,30.197327,64034043,L
+135,3600 block of Callaghan Road,San Antonio,TX,,Match,Exact,3600 Callaghan Rd,SAN ANTONIO,TX,78228,-98.60253,29.45631,101509370,R
+256,16000 block of US 385,Odessa,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+136,N/A,Texas City,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+257,Evanston St,Houston,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+137,3400 block of Oxford,Alvin,TX,,Match,Non_Exact,3400 Oxford Rd,ALVIN,TX,77511,-95.23683,29.395544,116586680,L
+258,100 block of Becker St,Boerne,TX,,Match,Exact,100 Becker St,BOERNE,TX,78006,-98.72618,29.796959,102763290,L
+138,Sageland Drive,Houston,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+259,Isom Street,Houston,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+139,Monica Drive,,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+30,N/A,San Antonio,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+31,2300 block of W Salinas,San Antonio,TX,,Match,Non_Exact,2300 West Ave,SAN ANTONIO,TX,78201,-98.52597,29.482136,101513096,R
+32,19435 Ambrosia Falls Dr,Tomball,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+33,1100 S Loop 336,Conroe,TX,,Match,Non_Exact,1100 N Loop 336,CONROE,TX,77306,-95.4735,30.33475,79275317,L
+34,CR 418,Premont,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+35,7109 W Loop 1604 N,San Antonio,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+36,31700 block of Dunham Lake Dr,Cypress,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+37,5518 Culebra Rd,San Antonio,TX,,Match,Exact,5518 Culebra Rd,SAN ANTONIO,TX,78228,-98.5974,29.448483,101564183,L
+38,8400 block of Knox St,Houston,TX,,Match,Exact,8400 Knox St,HOUSTON,TX,77088,-95.42695,29.876669,96052505,R
+39,N/A,Roby,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+260,9820 North Freeway,Houston,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+140,2600 block of S.W 8th Avenue,Mineral Wells,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+261,County Road 2130,Emory,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+141,3100 block of MacArthur Drive,Waco,TX,,Match,Exact,3100 Macarthur Dr,WACO,TX,76708,-97.18375,31.564745,146732940,L
+262,County Rd 3144,Corsicana,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+142,8600 block of Star Creek Drive,San Antonio,TX,,Match,Exact,8600 Star Creek Dr,SAN ANTONIO,TX,78251,-98.661255,29.466284,101505929,R
+263,12800 block of Gotham Dr,Houston,TX,,Match,Exact,12800 Gotham Dr,HOUSTON,TX,77089,-95.19795,29.59232,96114069,R
+143,Pipkin Street,Beaumont,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+264,N/A,Dallas,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+144,3606 South Westmoreland Road,Dallas,TX,,Match,Exact,3606 S Westmoreland Rd,DALLAS,TX,75233,-96.87799,32.70162,102941261,L
+265,200 block of Madero,San Antonio,TX,,Match,Non_Exact,200 Madero St,SAN ANTONIO,TX,78207,-98.52433,29.402637,101518145,L
+145,1900 block of 46th Street,Lubbock,TX,,Match,Exact,1900 46th St,LUBBOCK,TX,79412,-101.85818,33.55241,185255174,R
+266,N/A,Aransas Pass,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+146,4200 block of Troy Lane,Arlington,TX,,Match,Exact,4200 Troy Ln,ARLINGTON,TX,76016,-97.19795,32.6802,101929935,L
+267,1100 block of TX 31,Kilgore,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+147,Roth Forest Lane,Spring,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+268,1100 block of TX-31,Kilgore,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+148,1200 block of County Road 304,Bertram,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+269,100 block of S. Broad,Lampasas County,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+149,5751 Green Hill Road,San Angelo,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+40,TX 207 and Franklin St,Borger,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+41,10900 block of Telephone Rd,Houston,TX,,Match,Exact,10900 Telephone Rd,HOUSTON,TX,77075,-95.28587,29.607872,96591894,R
+42,1100 block of Fairview Dr,Rockwall,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+43,N/A,Christine,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+44,11300 block of Roszell St,San Antonio,TX,,Match,Exact,11300 Roszell St,SAN ANTONIO,TX,78217,-98.41384,29.54178,101499714,R
+45,N Dale St,Stephenville,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+46,306 S 25th St,Temple,TX,,Match,Exact,306 S 25th St,TEMPLE,TX,76504,-97.35536,31.097166,146148610,R
+47,TX 7,Martinsville,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+48,1300 block of Loop Rd,Beaumont,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+49,2700 block of Waldron Rd,Corpus Christi,TX,,Match,Exact,2700 Waldron Rd,CORPUS CHRISTI,TX,78418,-97.29911,27.641708,605775245,R
+270,610 Howard Street,Taylor,TX,,Match,Exact,610 Howard St,TAYLOR,TX,76574,-97.42028,30.571564,126427015,R
+150,300 block of Anderson County Road 1370,Palestine,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+151,1400 block of 12th Street,Levelland,TX,,Match,Exact,1400 12th St,LEVELLAND,TX,79336,-102.38418,33.581024,185764082,L
+152,County Road 3825,Bridgeport,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+153,210 Stone Avenue,Paris,TX,,Match,Exact,210 Stone Ave,PARIS,TX,75460,-95.552505,33.691467,63594117,L
+154,6300 block of Hanley Drive,Corpus Christi,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+155,2538 71st St,Lubbock,TX,,Match,Exact,2538 71st St,LUBBOCK,TX,79413,-101.87299,33.53015,185256006,R
+156,3300 block of Rock Creek Run,San Antonio,TX,,Match,Non_Exact,3300 Rock Creek Run St,SAN ANTONIO,TX,78230,-98.548546,29.51974,101493048,L
+157,17437 Adams Trail,Forney,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+158,5200 block of Indian Springs Drive,Temple,TX,,Match,Non_Exact,5200 Indian Springs Rd,TEMPLE,TX,76502,-97.46984,31.18526,146168639,R
+159,5200 block of Indian Springs Road,Temple (Moffatt),TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+50,7100 block of Dale Rd,El Paso,TX,,Match,Exact,7100 Dale Rd,EL PASO,TX,79915,-106.387856,31.758146,189407649,R
+51,4721 S Cooper St,Arlington,TX,,Match,Exact,4721 S Cooper St,ARLINGTON,TX,76001,-97.13435,32.670002,102131942,L
+52,5010 I-27,Lubbock,TX,,Match,Non_Exact,5010 27th St,LUBBOCK,TX,79407,-101.91915,33.569355,185250513,R
+53,Albany Dr,Mabank,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+54,N/A,Texarkana,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+55,1400 block of W Gulf Bank Rd,Houston,TX,,Match,Non_Exact,1400 West St,HOUSTON,TX,77020,-95.34575,29.774157,96632240,R
+56,1100 block of W St Francis St,Brownsville,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+57,Lynn Cir and 29th St,Texas City,TX,,Match,Non_Exact,Lynn Cir & 29th St N,TEXAS CITY,TX,77590,-94.93723,29.393187,,
+58,3900 block of Lawnwood St,Fort Worth,TX,,Match,Exact,3900 Lawnwood St,FT WORTH,TX,76111,-97.29038,32.761204,101891072,R
+59,8125 Mills Rd,Houston,TX,,Match,Exact,8125 Mills Rd,HOUSTON,TX,77064,-95.55124,29.954813,96658509,L
+160,900 block of Ruben Torres Boulevard,Brownsville,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+161,4100 block of Tumbleweed,Baytown,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+162,15400 block of Redbud Berry Way,Cypress,TX,,Match,Exact,15400 Redbud Berry Way,CYPRESS,TX,77433,-95.75339,30.003412,624800171,L
+163,3600 block of Beheler Road,Elm Mott,TX,,Match,Exact,3600 Beheler Rd,ELM MOTT,TX,76640,-97.110596,31.687872,146762421,R
+164,5203 Dumfries Drive,Houston,TX,,Match,Exact,5203 Dumfries Dr,HOUSTON,TX,77096,-95.470894,29.671337,96039234,L
+165,30706 Eastridge Drive,Spring,TX,,Match,Exact,30706 Eastridge Dr,SPRING,TX,77386,-95.39892,30.135963,627735074,L
+166,123 Old Chigger Trail,Fort Worth (Watauga),TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+167,10633 Strickland,Houston,TX,,Match,Non_Exact,10633 Strickland St,HOUSTON,TX,77093,-95.3342,29.867403,96074736,L
+168,900 block of East Scott Street,Gainesville,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+169,5300 block of West Gulf Bank,Houston,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+60,1000 block of E Walnut St,Hillsboro,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+61,1500 block of Wilson,Deer Park,TX,,Match,Non_Exact,1500 Wilson Dr,DEER PARK,TX,77536,-95.10925,29.685146,96106349,R
+62,6300 block of Feather Creek Dr,Houston,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+63,8000 block of Grow Ln,Houston,TX,,Match,Exact,8000 Grow Ln,HOUSTON,TX,77040,-95.51287,29.848763,96642985,R
+64,N/A,Bulverde,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+65,110 Mercedes Street,San Antonio,TX,,Match,Exact,110 Mercedes St,SAN ANTONIO,TX,78207,-98.519165,29.405758,101518456,L
+66,9000 block of CR 245,Concepcion,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+67,2600 block of FM 418,Kountze,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+68,5400 block of Wilson Rd,Fort Worth,TX,,Match,Exact,5400 Wilson Rd,FT WORTH,TX,76140,-97.24376,32.619984,101939486,R
+69,8000 block of Boone St,Houston,TX,,Match,Non_Exact,8000 Boone Rd,HOUSTON,TX,77072,-95.57469,29.691133,96603150,R
+170,8300 block of Shoal Creek,San Antonio,TX,,Match,Non_Exact,8300 Shoal Creek Dr,SAN ANTONIO,TX,78251,-98.65164,29.466202,101506005,R
+171,300 block of Madrid,Universal City,TX,,Match,Non_Exact,300 Madrid Dr,UNIVERSAL CITY,TX,78148,-98.31743,29.553625,101503778,L
+172,4900 block of South Buckner Boulevard,Dallas,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+173,Farm to Market 2050 Rd,,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+174,18000 block of Yaupon Tr,Humble (Atascocita),TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+175,N/A,,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+176,Neely Avenue,Midland,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+177,619 BIshop Drive,Killeen,TX,,Match,Exact,619 Bishop Dr,KILLEEN,TX,76541,-97.72902,31.113102,146140046,R
+178,3280 Central Mall Blvd.,Port Arthur,TX,,Match,Non_Exact,3280 Central Mall Dr,PORT ARTHUR,TX,77642,-93.9859,29.946531,73892821,L
+179,4600 block of Sorita Street,Mission,TX,,Match,Non_Exact,4600 Sorita,MISSION,TX,78572,-98.38068,26.213495,625171619,R
+70,Whitehurst Dr and Skillman St,Dallas,TX,,Match,Exact,Whitehurst Dr & Skillman St,DALLAS,TX,75243,-96.71911,32.898624,,
+71,CR 3560,Cleveland (Plum Grove),TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+72,19000 block of Highland,Tornillo,TX,,Match,Non_Exact,19000 Highland Rd,TORNILLO,TX,79853,-106.08667,31.452457,189387870,R
+73,3700 block of Burning Tree Ln,Garland,TX,,Match,Exact,3700 Burning Tree Ln,GARLAND,TX,75042,-96.68618,32.925095,102916799,L
+74,5000 block of CR 48,Manvel,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+75,Highway 770 North,Saratoga,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+76,500 block of Park Grove Dr,San Antonio,TX,,Match,Exact,500 Park Grove Dr,SAN ANTONIO,TX,78227,-98.621635,29.42947,101507353,L
+77,3500 block of Parker Rd E,Haltom City,TX,,Match,Exact,3500 Parker Rd E,HALTOM CITY,TX,76117,-97.27149,32.814774,101863374,R
+78,9500 block of Timber Trail,Scurry,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+79,10806 Cobblecreek Way,Missouri City,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+180,Canterbury Drive,San Antonio,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+181,3300 block of South Alameda Street,Corpus Christi,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+182,N/A,Pollok,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+183,1700 block of South Hamilton Street,San Antonio,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+184,2700 block of Faircrest Drive,Rockwall,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+185,Shadow Circle,New Braunfels,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+186,5600 block of Shallow Run,Fort Worth (Benbrook),TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+187,1802 Beacon Street,San Angelo,TX,,Match,Exact,1802 Beacon St,SAN ANGELO,TX,76905,-100.40943,31.47721,190683593,L
+188,2500 block of North Eastman Road,Longview,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+189,8442 Tavenor Lane,Houston,TX,,Match,Exact,8442 Tavenor Ln,HOUSTON,TX,77075,-95.26818,29.630045,96094423,R
+80,1509 Trigg Ln,Wichita Falls,TX,,Match,Exact,1509 Trigg Ln,WICHITA FALLS,TX,76306,-98.5152,33.96664,169840041,L
+81,400 block of E San Antonio St,New Braunfels,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+82,6200 block of Big Valley Dr,San Antonio,TX,,Match,Exact,6200 Big Valley Dr,SAN ANTONIO,TX,78242,-98.62514,29.354305,101508371,L
+83,22900 block of Cielo Vista Dr,San Antonio,TX,,Match,Exact,22900 Cielo Vis,SAN ANTONIO,TX,78255,-98.63312,29.658318,101733487,R
+84,4700 block of 6th St,Bacliff,TX,,Match,Exact,4700 6th St,BACLIFF,TX,77518,-94.98287,29.505701,96685903,R
+85,3100 block of Stag Road,Dallas,TX,,Match,Exact,3100 Stag Rd,DALLAS,TX,75241,-96.76614,32.693417,103192210,R
+86,200 block of Baker,Houston,TX,,Match,Non_Exact,200 Baker Rd,HOUSTON,TX,77094,-95.70194,29.783363,96628597,L
+87,19900 block of River Brook Dr,Humble (Atascocita),TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+88,1800 block of Edmund Blvd,San Angelo,TX,,Match,Exact,1800 Edmund Blvd,SAN ANGELO,TX,76901,-100.47441,31.477268,190678650,R
+89,1300 block of E Garnett,Gainesville,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+190,2200 block of 37th Street,Galveston,TX,,Match,Exact,2200 37th St,GALVESTON,TX,77550,-94.80447,29.285313,96727931,L
+191,6th Street and Louisiana,Weslaco,TX,,Tie,NA,NA,NA,NA,NA,NA,NA,NA,NA
+192,1000 block of Cove Crest Trail,Fresno,TX,,Match,Exact,1000 Cove Crest Trl,FRESNO,TX,77545,-95.46485,29.520758,627342613,L
+193,5400 block of War Cloud Drive,San Antonio,TX,,Match,Exact,5400 War Cloud Dr,SAN ANTONIO,TX,78242,-98.60492,29.345207,101519105,L
+194,19000 block of Puget Lane,Spring,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+195,Coit Road,Dallas,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+196,County Road 4010,,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+197,13600 block of North Central Expressway,Dallas,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+198,11500 Ferguson Road,Dallas,TX,,Match,Exact,11500 Ferguson Rd,DALLAS,TX,75228,-96.6525,32.852833,102930060,R
+199,5615 Leeland,Houston,TX,,Match,Non_Exact,5615 Leeland St,HOUSTON,TX,77023,-95.31808,29.731438,96082309,L
+90,234 RR 1050,Concan,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+91,3134 Mission Gate,San Antonio,TX,,Match,Non_Exact,3134 Mission Rd,SAN ANTONIO,TX,78214,-98.484184,29.364893,101533103,L
+92,600 block of County Rd L,Lamesa,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+93,Amos St,Houston,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+94,CR 2342,Dayton,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+95,13800 block of Northlake Dr,Houston,TX,,Match,Exact,13800 Northlake Dr,HOUSTON,TX,77049,-95.20306,29.81486,96095430,L
+96,700 block of E. Harris,San Angelo,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+97,9230 Saint Lo,Houston,TX,,Match,Non_Exact,9230 Saint Lo Rd,HOUSTON,TX,77033,-95.34154,29.6492,96090058,R
+98,1601 W 11th Place,Big Spring,TX,,Match,Exact,1601 W 11th Pl,BIG SPRING,TX,79720,-101.49167,32.240154,182879411,R
+99,N/A,Palestine,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+200,6215 Heatherbloom,Houston,TX,,Match,Non_Exact,6215 Heatherbloom Dr,HOUSTON,TX,77085,-95.477295,29.62204,96040498,L
+201,500 block of Washington Street,Abilene,TX,,Match,Exact,500 Washington St,ABILENE,TX,79601,-99.72611,32.456085,129970234,R
+202,3600 block of Del Mar Court,Killeen,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+203,1100 block of Olive St,Texarkana,TX,,Match,Exact,1100 Olive St,TEXARKANA,TX,75501,-94.04673,33.430237,57671105,R
+204,11290 Fondren,Houston,TX,,Match,Non_Exact,11290 Fondren Rd,HOUSTON,TX,77096,-95.50844,29.656168,96598915,R
+205,14425 Alief Clodine Rd,Houston,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+206,6301 Sierra Blanca,Houston,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+207,2300 block of Northeast 37th St.,Fort Worth,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+208,16800 block of Faring Road,Houston,TX,,Match,Exact,16800 Faring Rd,HOUSTON,TX,77049,-95.13549,29.859352,96095814,R
+209,1900 block of Imperial Stone Dr.,Houston,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+210,7400 block of Betanna,Houston,TX,,Match,Non_Exact,7400 Betannia Dr,HOUSTON,TX,77095,-95.63322,29.885445,96648427,L
+211,3900 block of Plymouth Drive,Garland,TX,,Match,Exact,3900 Plymouth Dr,GARLAND,TX,75043,-96.61444,32.867393,102930848,L
+212,5900 block of Highland Village Dr.,Dallas,TX,,Match,Exact,5900 Highland Village Dr,DALLAS,TX,75241,-96.76167,32.675686,102957025,L
+213,5800 block of Midcrown Drive,San Antonio,TX,,Match,Non_Exact,5800 E Midcrown Dr,SAN ANTONIO,TX,78218,-98.37635,29.490238,101536530,R
+214,County Road 381,Medina County,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+215,Douglas Avenue,Colleyville,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+216,County Road 3823,Medina County,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+217,N/A,Navasota,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+218,FM 1409 and County Road 460,Dayton,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+219,Johnson Ranch Road and County Road 4016,Kaufman County,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+220,800 Kern Rd,Killeen,TX,,Match,Non_Exact,800 W Kern Rd,KILLEEN,TX,76541,-97.733406,31.13222,146137184,L
+100,800 block of Upton St,San Angelo,TX,,Match,Exact,800 Upton St,SAN ANGELO,TX,76903,-100.42407,31.472158,190683363,L
+221,1200 block of Golden View Court,Arlington,TX,,Match,Exact,1200 Golden View Ct,ARLINGTON,TX,76001,-97.13231,32.639545,101948713,L
+101,2200 block of S Indiana,Brownsville,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+222,4702 West Magnum Rd.,Houston,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+102,71st St and Utica Ave,Lubbock,TX,,Match,Exact,71st St & Utica Ave,LUBBOCK,TX,79424,-101.91372,33.52899,,
+223,4700 block of West Mangum Road,Houston,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+103,1200 W 8th St,Freeport,TX,,Match,Exact,1200 W 8th St,FREEPORT,TX,77541,-95.36331,28.94872,116582392,L
+224,N/A,Rice,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+104,21323 Finbury Oaks Lane,Katy,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+225,N/A,Childress,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+105,1000 block of Vaky St,Corpus Christi,TX,,Match,Exact,1000 Vaky St,CORPUS CHRISTI,TX,78404,-97.397,27.756693,178517453,R
+226,4302 Falcon Meadow,Katy,TX,,Match,Non_Exact,4302 Falcon Meadow Dr,KATY,TX,77449,-95.70418,29.83482,96014552,R
+106,24100 block of Acanthus,San Antonio,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+227,N/A,Hale County,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+107,200 block of FM 1534,Whitney,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+228,400 block of East Thomas Street,Atlanta,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+108,800 block of W Green Ave,Killeen,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+229,Texas County Road 4070,Woodville,TX,,No_Match,NA,NA,NA,NA,NA,NA,NA,NA,NA
+109,4002 Corder St,Houston,TX,,Match,Exact,4002 Corder St,HOUSTON,TX,77021,-95.36218,29.685568,96088354,R

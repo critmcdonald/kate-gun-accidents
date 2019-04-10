@@ -1,0 +1,145 @@
+---
+title: "MapChi package test"
+output:
+  html_document:
+    df_print: paged
+knit: (function(inputFile, encoding) { rmarkdown::render(inputFile, encoding = encoding, output_dir = "docs") })
+---
+
+This is an exploration of th [MapChi](https://rdrr.io/github/dmwelgus/MapChi/) tools to geocode data. The goal is to get zip code and census tract values from the data.
+
+The result is we can get ZIP for about half of the addresses, but it does not return the census tract value at all. 
+
+```{r setup, echo=T, results='hide', message=F, warning=F}
+
+# install.packages("devtools")
+# library(devtools)
+# install_github("dmwelgus/MapChi")
+
+library(tidyverse)
+library(MapChi)
+```
+
+## Testing MapChi
+
+### Example address file
+
+I downloaded test data from the census bureau for how their geocode works. Note the original does not have a header column, so I added col names so I could see what they are. You do _NOT_ want a header column in the data you send through `census_geo`.
+
+```{r}
+census_example <- read_csv(
+    "data-raw/test-addresses.csv",
+    col_names = c("id", "address", "city", "state", "zip"),
+    col_types = cols(zip = col_character())
+  )
+                 
+census_example
+```
+
+IIRC, At some point I tested the geocoder without a zip column (cause we don't have them in gunviolence) and it would not process properly. You have to at least have a blank column there.
+
+### Geocode test
+
+This runs the MapChi `census_geo` function on the census bureau test file to see the expected return. Note that it does _NOT_ return a census tract, so this won't be able to give us that.
+
+```{r}
+test_geocoded <- census_geo("data-raw/test-addresses.csv")
+test_geocoded %>% names
+```
+
+```{r}
+test_geocoded
+```
+
+Note the first column there with all the values. I can't remove that through `select()`. I did end up later removing by writing the data frame to csv and then reimporting, which I do below for the tx gun violence data.
+
+## Import tx data
+
+Imports the cleaned data.
+
+```{r}
+tx <- read_rds("data-out/01_tx.rds")
+```
+
+## Select and write addresses to file
+
+The `census_geo()` function expects a csv file with spedific columns, so we create that here and write it out.
+
+```{r}
+tx %>% 
+  select(
+    id,
+    address,
+    city,
+    tx,
+    zip
+  ) %>% 
+  write_csv("data-out/02_tx_addresses.csv", col_names = F)
+```
+
+
+## Test MapChi on our tx addresses
+
+Runs the geocoder.
+
+```{r}
+tx_addresses <- census_geo("data-out/02_tx_addresses.csv")
+```
+
+The resulting dataframe has a weird first column that is a concatenation of all the fields that I can't remove through `select()`, so I'm writing out to csv and then reimporting.
+
+```{r}
+# export
+tx_addresses %>% 
+  write_csv("data-out/02_tx_addresses_geo.csv")
+# import
+tx_geo <- read_csv("data-out/02_tx_addresses_geo.csv")
+```
+
+## Explore the resulting data
+
+How did the geocoder fare?
+
+```{r}
+tx_geo %>% 
+  count(status, quality)
+```
+
+We got 92 great records and 40 good ones. 138 were not geocoded.
+
+## How are the zips
+
+At least the zips we did get start with 7 as they should. 138 records do not have zip codes.
+
+```{r}
+tx_geo %>% 
+  count(m_zip)
+```
+
+## Join and export
+
+We have to join our geocoded fields back to the original data in case we want to use it later.
+
+Prepare the geocoded data frame to just have the cols we need joined.
+
+```{r}
+tx_geo_2join <- tx_geo %>% 
+  arrange(id) %>% 
+  select(
+    id, m_zip, lat, long
+  ) %>% 
+  mutate(m_zip = m_zip %>% as.character())
+```
+
+Join them
+
+```{r}
+tx_joined <- left_join(tx, tx_geo_2join)
+```
+
+## Export results
+
+```{r}
+tx_joined %>% write_rds("data-out/02_tx_joined.rds")
+```
+

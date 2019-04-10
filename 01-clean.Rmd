@@ -1,0 +1,106 @@
+---
+title: "R Notebook"
+output:
+  html_document:
+    df_print: paged
+knit: (function(inputFile, encoding) { rmarkdown::render(inputFile, encoding = encoding, output_dir = "docs") })
+---
+
+```{r setup, echo=T, results='hide', message=F, warning=F}
+library(tidyverse)
+library(janitor)
+library(lubridate)
+```
+
+## Importing gun violence 
+
+
+```{r}
+tx <- read_csv("data-raw/gun_accidents_tx.csv") %>% clean_names()
+```
+
+## Cleaning
+
+### Columns additions
+
+Adding blank columns for tx, zip and county. Sets city as value of city_or_county, which is cleaned in the next step. We add an id so we can export parts and merge the back to the correct records.
+
+```{r}
+tx <- tx %>% 
+  mutate(id = row_number(),
+         tx = "TX",
+         zip = "",
+         county = "",
+         city = city_or_county
+         )
+```
+
+## Clean city
+
+```{r}
+tx <- tx %>% 
+  mutate(
+    city = str_replace(city, ".*county.*", "")
+  )
+```
+
+## Clean county
+
+There are six records that have a county listed in `city_or_county`. We populate the `county` column only when the word phrase " (county)" is in the `city_or_county` field. Then we remove the the phrase " (county)". Note the double-escape for parenthesis.
+
+```{r}
+tx <- tx %>% 
+  mutate(
+    county = case_when(
+      grepl("county", city_or_county) ~ city_or_county
+    )
+  ) %>%
+  mutate(
+    county = str_remove(county, " \\(county\\)")
+  )
+```
+
+### Clean dates
+
+```{r}
+tx <- tx %>% 
+  mutate(
+    incident_date = mdy(incident_date)
+  )
+```
+
+
+### Reorganize the columns
+
+Peek at the names
+
+```{r}
+tx %>% names()
+```
+
+Reselect to change the order
+
+```{r}
+tx <- tx %>% 
+  select(
+    id,
+    incident_date,
+    address,
+    city,
+    zip,
+    county,
+    tx,
+    number_killed,
+    number_injured,
+    operations,
+    city_or_county,
+    state
+  )
+```
+
+## Export the file
+
+```{r}
+tx %>% write_rds("data-out/01_tx.rds")
+```
+
