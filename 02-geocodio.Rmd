@@ -123,6 +123,7 @@ If you want to consider which of the results have accurate data to the zip code 
 
 - Exclude all that have `accuracy_type` of "place" or "state". That leaves 137 results.
 - Then consider the `accuracy_score`. 0.5 or greater gives you 133 records. Go to 0.8 and it drops to 96. Could always hand-check those lower-rated results to see if they past muster.
+- Geocodio only return census info if "rooftop, range_interpolation, nearest_street, point, nearest_rooftop_match, street_center". When they do, it's for the census block. There are 127 records (of 270) that have that data.
 
 ```{r}
 '%ni%' <- Negate('%in%')
@@ -132,3 +133,12 @@ tx_geocodio_select %>%
 ```
 
 So, in the end the geogoding results are not any better than with MapChi ... 
+
+## which results have median_income
+
+```{r}
+tx_geocodio_select %>% 
+  select(accuracy_type, median_income_total) %>% 
+  filter(!is.na(median_income_total))
+```
+
