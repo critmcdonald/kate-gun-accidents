@@ -141,5 +141,6 @@ tx_joined <- left_join(tx, tx_geo_2join)
 
 ```{r}
 tx_joined %>% write_rds("data-out/02_tx_joined.rds")
+tx_joined %>% write_csv("data-out/02_tx_joined.csv")
 ```
 

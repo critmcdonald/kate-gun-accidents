@@ -1,0 +1,271 @@
+id,incident_date,address,city,zip,county,tx,number_killed,number_injured,operations,city_or_county,state,m_zip,lat,long
+1,2019-03-27,Cliff Creek Crossing Dr,Dallas,,NA,TX,0,1,N/A,Dallas,Texas,NA,NA,NA
+2,2019-03-22,2800 Katy Hockley Cut Off Rd,Katy,,NA,TX,0,1,N/A,Katy,Texas,77493,29.813593,-95.80905
+3,2019-03-18,25000 block of Elmley Place,Spring,,NA,TX,1,0,N/A,Spring,Texas,NA,NA,NA
+4,2019-03-13,12929 Northwest Fwy,Houston,,NA,TX,1,0,N/A,Houston,Texas,77040,29.84331,-95.496284
+5,2019-02-22,1314 Clinton Ave,Fort Worth,,NA,TX,0,1,N/A,Fort Worth,Texas,76164,32.775352,-97.34781
+6,2019-02-11,Apple Valley Dr,San Antonio,,NA,TX,0,1,N/A,San Antonio,Texas,NA,NA,NA
+7,2019-01-27,Kimberly Glen Ln and Postwood Glen Ln,Spring,,NA,TX,1,0,N/A,Spring,Texas,77373,30.048597,-95.34982
+8,2019-01-22,16900 block of Jenikay Ln,Houston,,NA,TX,1,0,N/A,Houston,Texas,77084,29.844536,-95.65816
+9,2019-01-19,4700 block of Midway Dr,Temple,,NA,TX,2,0,N/A,Temple,Texas,76502,31.077719,-97.405334
+10,2019-01-19,2107 Lyndon Creek Ln,Houston,,NA,TX,1,0,N/A,Houston,Texas,77017,29.6791,-95.23414
+11,2019-01-19,11600 block of Vinedale Dr,Houston,,NA,TX,1,0,N/A,Houston,Texas,77099,29.661154,-95.58298
+12,2019-01-16,4000 W 34th St,Houston,,NA,TX,1,0,N/A,Houston,Texas,77092,29.817223,-95.4494
+13,2019-01-13,1400 block of East Power Ave,Victoria,,NA,TX,0,1,N/A,Victoria,Texas,NA,NA,NA
+14,2019-01-10,N/A,,,Montgomery,TX,0,1,N/A,Montgomery (county),Texas,NA,NA,NA
+15,2018-12-15,13000 block of Duncum St,Houston,,NA,TX,1,0,N/A,Houston,Texas,NA,NA,NA
+16,2018-12-04,4000 block of Wintergreen Dr,Humble,,NA,TX,0,1,N/A,Humble,Texas,77396,29.976269,-95.213486
+17,2018-12-04,1800 block of Bickers St,Dallas,,NA,TX,1,0,N/A,Dallas,Texas,75212,32.78704,-96.84802
+18,2018-11-18,9600 block of Beckleycrest Ave,Dallas,,NA,TX,1,0,N/A,Dallas,Texas,75232,32.631554,-96.83374
+19,2018-11-17,1400 block of Tumbleweed Tr,Roanoke (Northlake),,NA,TX,1,0,N/A,Roanoke (Northlake),Texas,NA,NA,NA
+20,2018-10-26,1000 block of County Rd 678,Brazoria,,NA,TX,0,1,N/A,Brazoria,Texas,NA,NA,NA
+21,2018-10-17,200 block of Roberts St,San Antonio,,NA,TX,1,1,N/A,San Antonio,Texas,78207,29.440376,-98.527885
+22,2018-10-07,4849 Haverwood Ln,Dallas,,NA,TX,1,0,N/A,Dallas,Texas,75287,33.00723,-96.823685
+23,2018-10-04,Southminster Dr and Ashcroft Dr,Houston,,NA,TX,0,1,N/A,Houston,Texas,77035,29.63918,-95.49228
+24,2018-10-04,Southminster Dr,Houston,,NA,TX,0,1,N/A,Houston,Texas,NA,NA,NA
+25,2018-09-30,5100 block of Mountain Springs Tr,Fort Worth,,NA,TX,0,2,N/A,Fort Worth,Texas,76123,32.63876,-97.4024
+26,2018-09-30,6700 block of Atasca Dr,Humble (Atascocita),,NA,TX,1,0,N/A,Humble (Atascocita),Texas,NA,NA,NA
+27,2018-09-27,FM 1209,Rusk,,NA,TX,1,0,N/A,Rusk,Texas,NA,NA,NA
+28,2018-08-24,Schroeder Ave,San Angelo,,NA,TX,0,1,N/A,San Angelo,Texas,NA,NA,NA
+29,2018-08-13,US-90 and TX-326,Nome,,NA,TX,0,1,N/A,Nome,Texas,NA,NA,NA
+30,2018-08-10,N/A,San Antonio,,NA,TX,0,1,N/A,San Antonio,Texas,NA,NA,NA
+31,2018-08-08,2300 block of W Salinas,San Antonio,,NA,TX,0,1,N/A,San Antonio,Texas,78201,29.482136,-98.52597
+32,2018-07-31,19435 Ambrosia Falls Dr,Tomball,,NA,TX,0,1,N/A,Tomball,Texas,NA,NA,NA
+33,2018-07-24,1100 S Loop 336,Conroe,,NA,TX,1,0,N/A,Conroe,Texas,77306,30.33475,-95.4735
+34,2018-07-18,CR 418,Premont,,NA,TX,0,1,N/A,Premont,Texas,NA,NA,NA
+35,2018-07-11,7109 W Loop 1604 N,San Antonio,,NA,TX,0,1,N/A,San Antonio,Texas,NA,NA,NA
+36,2018-07-10,31700 block of Dunham Lake Dr,Cypress,,NA,TX,0,1,N/A,Cypress,Texas,NA,NA,NA
+37,2018-07-08,5518 Culebra Rd,San Antonio,,NA,TX,0,1,N/A,San Antonio,Texas,78228,29.448483,-98.5974
+38,2018-07-08,8400 block of Knox St,Houston,,NA,TX,1,0,N/A,Houston,Texas,77088,29.876669,-95.42695
+39,2018-06-09,N/A,Roby,,NA,TX,0,1,N/A,Roby,Texas,NA,NA,NA
+40,2018-06-05,TX 207 and Franklin St,Borger,,NA,TX,1,1,N/A,Borger,Texas,NA,NA,NA
+41,2018-05-20,10900 block of Telephone Rd,Houston,,NA,TX,0,1,N/A,Houston,Texas,77075,29.607872,-95.28587
+42,2018-05-12,1100 block of Fairview Dr,Rockwall,,NA,TX,1,0,N/A,Rockwall,Texas,NA,NA,NA
+43,2018-04-30,N/A,Christine,,NA,TX,1,1,N/A,Christine,Texas,NA,NA,NA
+44,2018-04-10,11300 block of Roszell St,San Antonio,,NA,TX,0,1,N/A,San Antonio,Texas,78217,29.54178,-98.41384
+45,2018-04-09,N Dale St,Stephenville,,NA,TX,0,1,N/A,Stephenville,Texas,NA,NA,NA
+46,2018-03-22,306 S 25th St,Temple,,NA,TX,0,1,N/A,Temple,Texas,76504,31.097166,-97.35536
+47,2018-03-21,TX 7,Martinsville,,NA,TX,1,0,N/A,Martinsville,Texas,NA,NA,NA
+48,2018-03-12,1300 block of Loop Rd,Beaumont,,NA,TX,0,1,N/A,Beaumont,Texas,NA,NA,NA
+49,2018-02-28,2700 block of Waldron Rd,Corpus Christi,,NA,TX,0,1,N/A,Corpus Christi,Texas,78418,27.641708,-97.29911
+50,2018-02-20,7100 block of Dale Rd,El Paso,,NA,TX,1,0,N/A,El Paso,Texas,79915,31.758146,-106.387856
+51,2018-02-15,4721 S Cooper St,Arlington,,NA,TX,0,1,N/A,Arlington,Texas,76001,32.670002,-97.13435
+52,2018-02-08,5010 I-27,Lubbock,,NA,TX,1,0,N/A,Lubbock,Texas,79407,33.569355,-101.91915
+53,2018-02-05,Albany Dr,Mabank,,NA,TX,0,1,N/A,Mabank,Texas,NA,NA,NA
+54,2018-02-04,N/A,Texarkana,,NA,TX,0,1,N/A,Texarkana,Texas,NA,NA,NA
+55,2018-01-28,1400 block of W Gulf Bank Rd,Houston,,NA,TX,1,0,N/A,Houston,Texas,77020,29.774157,-95.34575
+56,2018-01-28,1100 block of W St Francis St,Brownsville,,NA,TX,0,1,N/A,Brownsville,Texas,NA,NA,NA
+57,2018-01-27,Lynn Cir and 29th St,Texas City,,NA,TX,1,0,N/A,Texas City,Texas,77590,29.393187,-94.93723
+58,2018-01-24,3900 block of Lawnwood St,Fort Worth,,NA,TX,1,0,N/A,Fort Worth,Texas,76111,32.761204,-97.29038
+59,2018-01-05,8125 Mills Rd,Houston,,NA,TX,0,1,N/A,Houston,Texas,77064,29.954813,-95.55124
+60,2017-12-30,1000 block of E Walnut St,Hillsboro,,NA,TX,1,0,N/A,Hillsboro,Texas,NA,NA,NA
+61,2017-12-17,1500 block of Wilson,Deer Park,,NA,TX,1,0,N/A,Deer Park,Texas,77536,29.685146,-95.10925
+62,2017-11-28,6300 block of Feather Creek Dr,Houston,,NA,TX,0,1,N/A,Houston,Texas,NA,NA,NA
+63,2017-11-24,8000 block of Grow Ln,Houston,,NA,TX,0,1,N/A,Houston,Texas,77040,29.848763,-95.51287
+64,2017-11-24,N/A,Bulverde,,NA,TX,1,0,N/A,Bulverde,Texas,NA,NA,NA
+65,2017-11-21,110 Mercedes Street,San Antonio,,NA,TX,0,1,N/A,San Antonio,Texas,78207,29.405758,-98.519165
+66,2017-11-18,9000 block of CR 245,Concepcion,,NA,TX,1,0,N/A,Concepcion,Texas,NA,NA,NA
+67,2017-11-08,2600 block of FM 418,Kountze,,NA,TX,1,0,N/A,Kountze,Texas,NA,NA,NA
+68,2017-10-28,5400 block of Wilson Rd,Fort Worth,,NA,TX,1,0,N/A,Fort Worth,Texas,76140,32.619984,-97.24376
+69,2017-10-17,8000 block of Boone St,Houston,,NA,TX,0,1,N/A,Houston,Texas,77072,29.691133,-95.57469
+70,2017-10-03,Whitehurst Dr and Skillman St,Dallas,,NA,TX,1,0,N/A,Dallas,Texas,75243,32.898624,-96.71911
+71,2017-09-30,CR 3560,Cleveland (Plum Grove),,NA,TX,1,0,N/A,Cleveland (Plum Grove),Texas,NA,NA,NA
+72,2017-09-28,19000 block of Highland,Tornillo,,NA,TX,1,0,N/A,Tornillo,Texas,79853,31.452457,-106.08667
+73,2017-09-26,3700 block of Burning Tree Ln,Garland,,NA,TX,1,0,N/A,Garland,Texas,75042,32.925095,-96.68618
+74,2017-09-19,5000 block of CR 48,Manvel,,NA,TX,1,0,N/A,Manvel,Texas,NA,NA,NA
+75,2017-09-16,Highway 770 North,Saratoga,,NA,TX,0,1,N/A,Saratoga,Texas,NA,NA,NA
+76,2017-09-05,500 block of Park Grove Dr,San Antonio,,NA,TX,0,1,N/A,San Antonio,Texas,78227,29.42947,-98.621635
+77,2017-09-02,3500 block of Parker Rd E,Haltom City,,NA,TX,1,0,N/A,Haltom City,Texas,76117,32.814774,-97.27149
+78,2017-08-28,9500 block of Timber Trail,Scurry,,NA,TX,1,0,N/A,Scurry,Texas,NA,NA,NA
+79,2017-08-10,10806 Cobblecreek Way,Missouri City,,NA,TX,0,1,N/A,Missouri City,Texas,NA,NA,NA
+80,2017-08-07,1509 Trigg Ln,Wichita Falls,,NA,TX,1,0,N/A,Wichita Falls,Texas,76306,33.96664,-98.5152
+81,2017-08-06,400 block of E San Antonio St,New Braunfels,,NA,TX,0,2,N/A,New Braunfels,Texas,NA,NA,NA
+82,2017-08-04,6200 block of Big Valley Dr,San Antonio,,NA,TX,1,0,N/A,San Antonio,Texas,78242,29.354305,-98.62514
+83,2017-07-31,22900 block of Cielo Vista Dr,San Antonio,,NA,TX,0,1,N/A,San Antonio,Texas,78255,29.658318,-98.63312
+84,2017-07-30,4700 block of 6th St,Bacliff,,NA,TX,1,0,N/A,Bacliff,Texas,77518,29.505701,-94.98287
+85,2017-07-22,3100 block of Stag Road,Dallas,,NA,TX,0,1,N/A,Dallas,Texas,75241,32.693417,-96.76614
+86,2017-07-21,200 block of Baker,Houston,,NA,TX,0,1,N/A,Houston,Texas,77094,29.783363,-95.70194
+87,2017-07-20,19900 block of River Brook Dr,Humble (Atascocita),,NA,TX,1,0,N/A,Humble (Atascocita),Texas,NA,NA,NA
+88,2017-07-19,1800 block of Edmund Blvd,San Angelo,,NA,TX,1,0,N/A,San Angelo,Texas,76901,31.477268,-100.47441
+89,2017-07-19,1300 block of E Garnett,Gainesville,,NA,TX,0,1,N/A,Gainesville,Texas,NA,NA,NA
+90,2017-07-06,234 RR 1050,Concan,,NA,TX,0,3,N/A,Concan,Texas,NA,NA,NA
+91,2017-07-04,3134 Mission Gate,San Antonio,,NA,TX,1,0,N/A,San Antonio,Texas,78214,29.364893,-98.484184
+92,2017-07-02,600 block of County Rd L,Lamesa,,NA,TX,0,1,N/A,Lamesa,Texas,NA,NA,NA
+93,2017-06-26,Amos St,Houston,,NA,TX,0,1,N/A,Houston,Texas,NA,NA,NA
+94,2017-06-12,CR 2342,Dayton,,NA,TX,1,0,N/A,Dayton,Texas,NA,NA,NA
+95,2017-06-01,13800 block of Northlake Dr,Houston,,NA,TX,1,0,N/A,Houston,Texas,77049,29.81486,-95.20306
+96,2017-05-22,700 block of E. Harris,San Angelo,,NA,TX,0,1,N/A,San Angelo,Texas,NA,NA,NA
+97,2017-05-14,9230 Saint Lo,Houston,,NA,TX,0,1,N/A,Houston,Texas,77033,29.6492,-95.34154
+98,2017-05-12,1601 W 11th Place,Big Spring,,NA,TX,1,0,N/A,Big Spring,Texas,79720,32.240154,-101.49167
+99,2017-05-07,N/A,Palestine,,NA,TX,0,1,N/A,Palestine,Texas,NA,NA,NA
+100,2017-05-05,800 block of Upton St,San Angelo,,NA,TX,0,1,N/A,San Angelo,Texas,76903,31.472158,-100.42407
+101,2017-04-28,2200 block of S Indiana,Brownsville,,NA,TX,0,1,N/A,Brownsville,Texas,NA,NA,NA
+102,2017-04-25,71st St and Utica Ave,Lubbock,,NA,TX,0,1,N/A,Lubbock,Texas,79424,33.52899,-101.91372
+103,2017-04-19,1200 W 8th St,Freeport,,NA,TX,1,0,N/A,Freeport,Texas,77541,28.94872,-95.36331
+104,2017-04-13,21323 Finbury Oaks Lane,Katy,,NA,TX,1,0,N/A,Katy,Texas,NA,NA,NA
+105,2017-04-02,1000 block of Vaky St,Corpus Christi,,NA,TX,1,0,N/A,Corpus Christi,Texas,78404,27.756693,-97.397
+106,2017-04-02,24100 block of Acanthus,San Antonio,,NA,TX,0,1,N/A,San Antonio,Texas,NA,NA,NA
+107,2017-03-23,200 block of FM 1534,Whitney,,NA,TX,1,0,N/A,Whitney,Texas,NA,NA,NA
+108,2017-03-23,800 block of W Green Ave,Killeen,,NA,TX,1,0,N/A,Killeen,Texas,NA,NA,NA
+109,2017-03-22,4002 Corder St,Houston,,NA,TX,2,0,N/A,Houston,Texas,77021,29.685568,-95.36218
+110,2017-03-22,400 Block of Hardy Circle,El Paso,,NA,TX,1,0,N/A,El Paso,Texas,79905,31.771141,-106.41049
+111,2017-03-17,4860 SW Loop 820,Fort Worth,,NA,TX,0,2,N/A,Fort Worth,Texas,76109,32.682907,-97.3967
+112,2017-03-16,N/A,Fort Worth,,NA,TX,0,1,N/A,Fort Worth,Texas,NA,NA,NA
+113,2017-03-12,700 block of Hatton Hill Lane,Austin,,NA,TX,0,1,N/A,Austin,Texas,NA,NA,NA
+114,2017-03-10,21300 block of Greenham Dr.,Spring,,NA,TX,1,0,N/A,Spring,Texas,77388,30.073519,-95.46602
+115,2017-01-02,1600 Block of North 8th Street,Lamesa,,NA,TX,0,1,N/A,Lamesa,Texas,NA,NA,NA
+116,2016-12-31,4235 Oak Shadows,Houston,,NA,TX,1,0,N/A,Houston,Texas,77091,29.843706,-95.45008
+117,2016-12-29,500 block of FM 843,Lufkin,,NA,TX,0,1,N/A,Lufkin,Texas,NA,NA,NA
+118,2016-12-17,9th Street and Colcord Avenue,Waco,,NA,TX,0,1,N/A,Waco,Texas,76707,31.56194,-97.145386
+119,2016-12-12,700 Dominik Drive,College Station,,NA,TX,0,1,N/A,College Station,Texas,77840,30.622826,-96.317245
+120,2016-11-28,406 W Martinez St,Del Rio,,NA,TX,2,0,N/A,Del Rio,Texas,78840,29.353983,-100.87978
+121,2016-10-21,Central Park Lane,College Station,,NA,TX,0,1,N/A,College Station,Texas,NA,NA,NA
+122,2016-10-03,1416 Meadowlane Terrace,Fort Worth,,NA,TX,0,1,N/A,Fort Worth,Texas,76112,32.75877,-97.20361
+123,2016-09-29,3712 North Elm Street,Fort Worth,,NA,TX,1,0,N/A,Fort Worth,Texas,76106,32.810688,-97.343765
+124,2016-09-16,N/A,,,Harris,TX,0,1,N/A,Harris (county),Texas,NA,NA,NA
+125,2016-09-12,1200 block of Susan Avenue,Fort Worth,,NA,TX,0,1,N/A,Fort Worth,Texas,76120,32.76274,-97.16231
+126,2016-09-08,704 West Sul Ross Ave,Alpine,,NA,TX,1,2,N/A,Alpine,Texas,79830,30.357546,-103.66812
+127,2016-09-06,200 Bowser Cir,Terrell,,NA,TX,0,1,N/A,Terrell,Texas,75160,32.736126,-96.28488
+128,2016-09-05,200 block of Los Ranchitos,San Benito,,NA,TX,1,0,N/A,San Benito,Texas,78586,26.033361,-97.638756
+129,2016-08-27,500 block of Doherty Street,San Benito,,NA,TX,1,0,N/A,San Benito,Texas,78586,26.141857,-97.635704
+130,2016-08-07,300 block of Breckenridge Street,Texarkana,,NA,TX,0,1,N/A,Texarkana,Texas,75501,33.43952,-94.08706
+131,2016-07-31,300 block of De Haven St,Houston,,NA,TX,1,0,N/A,Houston,Texas,77029,29.738173,-95.25661
+132,2016-07-28,4000 block of East Texas 6,Alvin,,NA,TX,0,1,N/A,Alvin,Texas,NA,NA,NA
+133,2016-07-27,3600 block of Hulen Park Circle,Fort Worth,,NA,TX,0,1,N/A,Fort Worth,Texas,76123,32.625923,-97.37087
+134,2016-07-26,9700 block of Shady Tree Ln,Houston,,NA,TX,1,0,N/A,Houston,Texas,77086,29.921629,-95.50363
+135,2016-07-26,3600 block of Callaghan Road,San Antonio,,NA,TX,1,0,N/A,San Antonio,Texas,78228,29.45631,-98.60253
+136,2016-07-20,N/A,Texas City,,NA,TX,0,1,N/A,Texas City,Texas,NA,NA,NA
+137,2016-07-19,3400 block of Oxford,Alvin,,NA,TX,1,0,N/A,Alvin,Texas,77511,29.395544,-95.23683
+138,2016-07-15,Sageland Drive,Houston,,NA,TX,1,0,N/A,Houston,Texas,NA,NA,NA
+139,2016-07-11,Monica Drive,,,Marion,TX,1,0,N/A,Marion (county),Texas,NA,NA,NA
+140,2016-07-08,2600 block of S.W 8th Avenue,Mineral Wells,,NA,TX,1,0,N/A,Mineral Wells,Texas,NA,NA,NA
+141,2016-07-02,3100 block of MacArthur Drive,Waco,,NA,TX,0,1,N/A,Waco,Texas,76708,31.564745,-97.18375
+142,2016-06-28,8600 block of Star Creek Drive,San Antonio,,NA,TX,1,0,N/A,San Antonio,Texas,78251,29.466284,-98.661255
+143,2016-05-17,Pipkin Street,Beaumont,,NA,TX,0,1,N/A,Beaumont,Texas,NA,NA,NA
+144,2016-05-02,3606 South Westmoreland Road,Dallas,,NA,TX,0,1,N/A,Dallas,Texas,75233,32.70162,-96.87799
+145,2016-04-24,1900 block of 46th Street,Lubbock,,NA,TX,0,1,N/A,Lubbock,Texas,79412,33.55241,-101.85818
+146,2016-04-22,4200 block of Troy Lane,Arlington,,NA,TX,0,1,N/A,Arlington,Texas,76016,32.6802,-97.19795
+147,2016-04-16,Roth Forest Lane,Spring,,NA,TX,0,1,N/A,Spring,Texas,NA,NA,NA
+148,2016-04-13,1200 block of County Road 304,Bertram,,NA,TX,0,1,N/A,Bertram,Texas,NA,NA,NA
+149,2016-03-25,5751 Green Hill Road,San Angelo,,NA,TX,0,1,N/A,San Angelo,Texas,NA,NA,NA
+150,2016-03-19,300 block of Anderson County Road 1370,Palestine,,NA,TX,1,0,N/A,Palestine,Texas,NA,NA,NA
+151,2016-03-19,1400 block of 12th Street,Levelland,,NA,TX,0,1,N/A,Levelland,Texas,79336,33.581024,-102.38418
+152,2016-03-14,County Road 3825,Bridgeport,,NA,TX,1,0,N/A,Bridgeport,Texas,NA,NA,NA
+153,2016-03-12,210 Stone Avenue,Paris,,NA,TX,1,0,N/A,Paris,Texas,75460,33.691467,-95.552505
+154,2016-03-01,6300 block of Hanley Drive,Corpus Christi,,NA,TX,1,0,N/A,Corpus Christi,Texas,NA,NA,NA
+155,2016-02-16,2538 71st St,Lubbock,,NA,TX,1,0,N/A,Lubbock,Texas,79413,33.53015,-101.87299
+156,2016-02-09,3300 block of Rock Creek Run,San Antonio,,NA,TX,0,1,N/A,San Antonio,Texas,78230,29.51974,-98.548546
+157,2016-02-06,17437 Adams Trail,Forney,,NA,TX,0,1,N/A,Forney,Texas,NA,NA,NA
+158,2016-02-05,5200 block of Indian Springs Drive,Temple,,NA,TX,0,1,N/A,Temple,Texas,76502,31.18526,-97.46984
+159,2016-02-04,5200 block of Indian Springs Road,Temple (Moffatt),,NA,TX,0,1,N/A,Temple (Moffatt),Texas,NA,NA,NA
+160,2016-01-27,900 block of Ruben Torres Boulevard,Brownsville,,NA,TX,0,1,N/A,Brownsville,Texas,NA,NA,NA
+161,2016-01-25,4100 block of Tumbleweed,Baytown,,NA,TX,2,0,N/A,Baytown,Texas,NA,NA,NA
+162,2016-01-19,15400 block of Redbud Berry Way,Cypress,,NA,TX,1,0,N/A,Cypress,Texas,77433,30.003412,-95.75339
+163,2016-01-16,3600 block of Beheler Road,Elm Mott,,NA,TX,0,1,N/A,Elm Mott,Texas,76640,31.687872,-97.110596
+164,2016-01-16,5203 Dumfries Drive,Houston,,NA,TX,1,0,N/A,Houston,Texas,77096,29.671337,-95.470894
+165,2016-01-03,30706 Eastridge Drive,Spring,,NA,TX,0,1,N/A,Spring,Texas,77386,30.135963,-95.39892
+166,2015-12-24,123 Old Chigger Trail,Fort Worth (Watauga),,NA,TX,0,1,N/A,Fort Worth (Watauga),Texas,NA,NA,NA
+167,2015-12-19,10633 Strickland,Houston,,NA,TX,0,1,N/A,Houston,Texas,77093,29.867403,-95.3342
+168,2015-12-14,900 block of East Scott Street,Gainesville,,NA,TX,0,1,N/A,Gainesville,Texas,NA,NA,NA
+169,2015-12-10,5300 block of West Gulf Bank,Houston,,NA,TX,0,1,N/A,Houston,Texas,NA,NA,NA
+170,2015-12-10,8300 block of Shoal Creek,San Antonio,,NA,TX,0,1,N/A,San Antonio,Texas,78251,29.466202,-98.65164
+171,2015-12-10,300 block of Madrid,Universal City,,NA,TX,1,0,N/A,Universal City,Texas,78148,29.553625,-98.31743
+172,2015-12-09,4900 block of South Buckner Boulevard,Dallas,,NA,TX,1,0,N/A,Dallas,Texas,NA,NA,NA
+173,2015-12-03,Farm to Market 2050 Rd,,,Webb,TX,1,0,N/A,Webb (county),Texas,NA,NA,NA
+174,2015-11-21,18000 block of Yaupon Tr,Humble (Atascocita),,NA,TX,1,0,N/A,Humble (Atascocita),Texas,NA,NA,NA
+175,2015-11-19,N/A,,,Lubbock,TX,0,1,N/A,Lubbock (county),Texas,NA,NA,NA
+176,2015-11-12,Neely Avenue,Midland,,NA,TX,0,1,N/A,Midland,Texas,NA,NA,NA
+177,2015-11-11,619 BIshop Drive,Killeen,,NA,TX,0,1,N/A,Killeen,Texas,76541,31.113102,-97.72902
+178,2015-10-30,3280 Central Mall Blvd.,Port Arthur,,NA,TX,0,1,N/A,Port Arthur,Texas,77642,29.946531,-93.9859
+179,2015-10-24,4600 block of Sorita Street,Mission,,NA,TX,0,1,N/A,Mission,Texas,78572,26.213495,-98.38068
+180,2015-10-23,Canterbury Drive,San Antonio,,NA,TX,0,1,N/A,San Antonio,Texas,NA,NA,NA
+181,2015-09-28,3300 block of South Alameda Street,Corpus Christi,,NA,TX,0,1,N/A,Corpus Christi,Texas,NA,NA,NA
+182,2015-09-27,N/A,Pollok,,NA,TX,0,1,N/A,Pollok,Texas,NA,NA,NA
+183,2015-09-23,1700 block of South Hamilton Street,San Antonio,,NA,TX,1,0,N/A,San Antonio,Texas,NA,NA,NA
+184,2015-09-13,2700 block of Faircrest Drive,Rockwall,,NA,TX,0,1,N/A,Rockwall,Texas,NA,NA,NA
+185,2015-08-21,Shadow Circle,New Braunfels,,NA,TX,0,1,N/A,New Braunfels,Texas,NA,NA,NA
+186,2015-08-20,5600 block of Shallow Run,Fort Worth (Benbrook),,NA,TX,1,0,N/A,Fort Worth (Benbrook),Texas,NA,NA,NA
+187,2015-08-18,1802 Beacon Street,San Angelo,,NA,TX,0,1,N/A,San Angelo,Texas,76905,31.47721,-100.40943
+188,2015-08-03,2500 block of North Eastman Road,Longview,,NA,TX,1,0,N/A,Longview,Texas,NA,NA,NA
+189,2015-07-30,8442 Tavenor Lane,Houston,,NA,TX,1,0,N/A,Houston,Texas,77075,29.630045,-95.26818
+190,2015-07-24,2200 block of 37th Street,Galveston,,NA,TX,0,1,N/A,Galveston,Texas,77550,29.285313,-94.80447
+191,2015-07-23,6th Street and Louisiana,Weslaco,,NA,TX,0,1,N/A,Weslaco,Texas,NA,NA,NA
+192,2015-07-20,1000 block of Cove Crest Trail,Fresno,,NA,TX,1,0,N/A,Fresno,Texas,77545,29.520758,-95.46485
+193,2015-07-16,5400 block of War Cloud Drive,San Antonio,,NA,TX,1,0,N/A,San Antonio,Texas,78242,29.345207,-98.60492
+194,2015-07-05,19000 block of Puget Lane,Spring,,NA,TX,1,0,N/A,Spring,Texas,NA,NA,NA
+195,2015-07-02,Coit Road,Dallas,,NA,TX,0,1,N/A,Dallas,Texas,NA,NA,NA
+196,2015-06-13,County Road 4010,,,Wise,TX,1,0,N/A,Wise (county),Texas,NA,NA,NA
+197,2015-06-13,13600 block of North Central Expressway,Dallas,,NA,TX,1,0,N/A,Dallas,Texas,NA,NA,NA
+198,2015-06-05,11500 Ferguson Road,Dallas,,NA,TX,0,1,N/A,Dallas,Texas,75228,32.852833,-96.6525
+199,2015-06-04,5615 Leeland,Houston,,NA,TX,1,0,N/A,Houston,Texas,77023,29.731438,-95.31808
+200,2015-06-01,6215 Heatherbloom,Houston,,NA,TX,1,0,N/A,Houston,Texas,77085,29.62204,-95.477295
+201,2015-05-30,500 block of Washington Street,Abilene,,NA,TX,1,0,N/A,Abilene,Texas,79601,32.456085,-99.72611
+202,2015-04-18,3600 block of Del Mar Court,Killeen,,NA,TX,1,0,N/A,Killeen,Texas,NA,NA,NA
+203,2015-04-13,1100 block of Olive St,Texarkana,,NA,TX,0,1,N/A,Texarkana,Texas,75501,33.430237,-94.04673
+204,2015-04-10,11290 Fondren,Houston,,NA,TX,1,0,N/A,Houston,Texas,77096,29.656168,-95.50844
+205,2015-03-19,14425 Alief Clodine Rd,Houston,,NA,TX,1,0,N/A,Houston,Texas,NA,NA,NA
+206,2015-03-19,6301 Sierra Blanca,Houston,,NA,TX,1,0,N/A,Houston,Texas,NA,NA,NA
+207,2015-03-05,2300 block of Northeast 37th St.,Fort Worth,,NA,TX,0,1,N/A,Fort Worth,Texas,NA,NA,NA
+208,2015-03-02,16800 block of Faring Road,Houston,,NA,TX,0,1,N/A,Houston,Texas,77049,29.859352,-95.13549
+209,2015-03-01,1900 block of Imperial Stone Dr.,Houston,,NA,TX,1,0,N/A,Houston,Texas,NA,NA,NA
+210,2015-02-27,7400 block of Betanna,Houston,,NA,TX,1,0,N/A,Houston,Texas,77095,29.885445,-95.63322
+211,2015-02-26,3900 block of Plymouth Drive,Garland,,NA,TX,1,0,N/A,Garland,Texas,75043,32.867393,-96.61444
+212,2015-02-07,5900 block of Highland Village Dr.,Dallas,,NA,TX,1,0,N/A,Dallas,Texas,75241,32.675686,-96.76167
+213,2015-02-07,5800 block of Midcrown Drive,San Antonio,,NA,TX,0,1,N/A,San Antonio,Texas,78218,29.490238,-98.37635
+214,2015-01-21,County Road 381,Medina County,,NA,TX,0,1,N/A,Medina County,Texas,NA,NA,NA
+215,2015-01-17,Douglas Avenue,Colleyville,,NA,TX,0,1,N/A,Colleyville,Texas,NA,NA,NA
+216,2015-01-07,County Road 3823,Medina County,,NA,TX,0,1,N/A,Medina County,Texas,NA,NA,NA
+217,2014-12-31,N/A,Navasota,,NA,TX,0,1,N/A,Navasota,Texas,NA,NA,NA
+218,2014-12-30,FM 1409 and County Road 460,Dayton,,NA,TX,0,1,N/A,Dayton,Texas,NA,NA,NA
+219,2014-12-22,Johnson Ranch Road and County Road 4016,Kaufman County,,NA,TX,0,1,N/A,Kaufman County,Texas,NA,NA,NA
+220,2014-12-05,800 Kern Rd,Killeen,,NA,TX,0,1,N/A,Killeen,Texas,76541,31.13222,-97.733406
+221,2014-12-04,1200 block of Golden View Court,Arlington,,NA,TX,1,0,N/A,Arlington,Texas,76001,32.639545,-97.13231
+222,2014-11-30,4702 West Magnum Rd.,Houston,,NA,TX,0,1,N/A,Houston,Texas,NA,NA,NA
+223,2014-11-29,4700 block of West Mangum Road,Houston,,NA,TX,0,1,N/A,Houston,Texas,NA,NA,NA
+224,2014-11-29,N/A,Rice,,NA,TX,0,1,N/A,Rice,Texas,NA,NA,NA
+225,2014-11-28,N/A,Childress,,NA,TX,1,0,N/A,Childress,Texas,NA,NA,NA
+226,2014-11-25,4302 Falcon Meadow,Katy,,NA,TX,1,0,N/A,Katy,Texas,77449,29.83482,-95.70418
+227,2014-11-25,N/A,Hale County,,NA,TX,0,1,N/A,Hale County,Texas,NA,NA,NA
+228,2014-11-24,400 block of East Thomas Street,Atlanta,,NA,TX,1,0,N/A,Atlanta,Texas,NA,NA,NA
+229,2014-11-22,Texas County Road 4070,Woodville,,NA,TX,1,0,N/A,Woodville,Texas,NA,NA,NA
+230,2014-10-19,3800 block of Reynosa Street,Corpus Christi,,NA,TX,1,0,N/A,Corpus Christi,Texas,78416,27.760765,-97.424484
+231,2014-09-26,Force and Crown,Houston,,NA,TX,1,0,N/A,Houston,Texas,77020,29.786324,-95.29335
+232,2014-09-24,325 Pruitt Ave.,San Antonio,,NA,TX,0,0,N/A,San Antonio,Texas,78204,29.398796,-98.506676
+233,2014-09-05,200 block of Moonshine Hill,Humble,,NA,TX,0,1,N/A,Humble,Texas,NA,NA,NA
+234,2014-08-24,4200 block of Southwest Loop 410,San Antonio,,NA,TX,1,0,N/A,San Antonio,Texas,NA,NA,NA
+235,2014-08-21,Mountain View Lane,Pipe Creek,,NA,TX,0,1,N/A,Pipe Creek,Texas,NA,NA,NA
+236,2014-08-14,4600 East Houston St.,San Antonio,,NA,TX,1,0,N/A,San Antonio,Texas,78220,29.424013,-98.40313
+237,2014-08-13,400 block of S. Pine St.,San Antonio,,NA,TX,0,1,N/A,San Antonio,Texas,NA,NA,NA
+238,2014-08-10,1100 S Seventh,Conroe,,NA,TX,0,1,N/A,Conroe,Texas,77301,30.302744,-95.442406
+239,2014-08-10,N/A,Texas City,,NA,TX,0,1,N/A,Texas City,Texas,NA,NA,NA
+240,2014-08-07,N/A,Texas City,,NA,TX,0,1,N/A,Texas City,Texas,NA,NA,NA
+241,2014-08-06,10100 Beechnut St,Houston,,NA,TX,0,2,N/A,Houston,Texas,77072,29.689459,-95.55757
+242,2014-08-05,600 block of Destin Dr,Fort Worth,,NA,TX,0,1,N/A,Fort Worth,Texas,76131,32.908077,-97.370834
+243,2014-08-01,N/A,Ector County,,NA,TX,0,1,N/A,Ector County,Texas,NA,NA,NA
+244,2014-07-31,1600 block of Saunders,Bryan,,NA,TX,1,0,N/A,Bryan,Texas,77803,30.680037,-96.3869
+245,2014-07-31,N/A,Bryan,,NA,TX,1,0,N/A,Bryan,Texas,NA,NA,NA
+246,2014-07-26,N/A,Belton,,NA,TX,0,1,N/A,Belton,Texas,NA,NA,NA
+247,2014-07-23,Pine and E. Crockett St.,San Antonio,,NA,TX,0,1,N/A,San Antonio,Texas,78202,29.42376,-98.47025
+248,2014-07-12,100 Debby Ln,Mineola,,NA,TX,0,1,N/A,Mineola,Texas,NA,NA,NA
+249,2014-07-09,FM 1375 E,New Waverly,,NA,TX,0,1,N/A,New Waverly,Texas,NA,NA,NA
+250,2014-07-05,11400 block of Panay,Houston,,NA,TX,1,0,N/A,Houston,Texas,77048,29.63618,-95.347466
+251,2014-07-03,N/A,Dallas,,NA,TX,1,0,N/A,Dallas,Texas,NA,NA,NA
+252,2014-07-01,Co Rd 4764,Briar,,NA,TX,0,1,N/A,Briar,Texas,NA,NA,NA
+253,2014-06-30,6301 Ranchester,Houston,,NA,TX,1,0,N/A,Houston,Texas,77036,29.709867,-95.54548
+254,2014-06-27,14678 FM 59,Athens,,NA,TX,0,1,N/A,Athens,Texas,NA,NA,NA
+255,2014-06-22,739 West William Cannon Dr,Austin,,NA,TX,1,0,N/A,Austin,Texas,78745,30.197327,-97.78859
+256,2014-06-13,16000 block of US 385,Odessa,,NA,TX,0,1,N/A,Odessa,Texas,NA,NA,NA
+257,2014-06-12,Evanston St,Houston,,NA,TX,0,1,N/A,Houston,Texas,NA,NA,NA
+258,2014-05-24,100 block of Becker St,Boerne,,NA,TX,1,0,N/A,Boerne,Texas,78006,29.796959,-98.72618
+259,2014-04-24,Isom Street,Houston,,NA,TX,0,1,N/A,Houston,Texas,NA,NA,NA
+260,2014-04-13,9820 North Freeway,Houston,,NA,TX,0,0,N/A,Houston,Texas,NA,NA,NA
+261,2014-03-13,County Road 2130,Emory,,NA,TX,1,0,N/A,Emory,Texas,NA,NA,NA
+262,2014-03-10,County Rd 3144,Corsicana,,NA,TX,1,0,N/A,Corsicana,Texas,NA,NA,NA
+263,2014-03-01,12800 block of Gotham Dr,Houston,,NA,TX,1,0,N/A,Houston,Texas,77089,29.59232,-95.19795
+264,2014-03-01,N/A,Dallas,,NA,TX,0,1,N/A,Dallas,Texas,NA,NA,NA
+265,2014-02-27,200 block of Madero,San Antonio,,NA,TX,1,0,N/A,San Antonio,Texas,78207,29.402637,-98.52433
+266,2014-02-14,N/A,Aransas Pass,,NA,TX,0,1,N/A,Aransas Pass,Texas,NA,NA,NA
+267,2014-01-26,1100 block of TX 31,Kilgore,,NA,TX,1,0,N/A,Kilgore,Texas,NA,NA,NA
+268,2014-01-25,1100 block of TX-31,Kilgore,,NA,TX,1,0,N/A,Kilgore,Texas,NA,NA,NA
+269,2014-01-18,100 block of S. Broad,Lampasas County,,NA,TX,0,1,N/A,Lampasas County,Texas,NA,NA,NA
+270,2014-01-02,610 Howard Street,Taylor,,NA,TX,0,1,N/A,Taylor,Texas,76574,30.571564,-97.42028
